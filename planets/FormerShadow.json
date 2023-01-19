@@ -17,7 +17,7 @@
         "axialTilt": 5,
         "siderealPeriod": 3,
         "showOrbitLine": true,
-        "semiMajorAxis": 3000,
+        "semiMajorAxis": 5000,
         "inclination": 5,
         "longitudeOfAscendingNode": 10
     },
@@ -33,12 +33,13 @@
                 "keepLoaded": true
             }
         ]
+       
     },
     "Spawn": {
         "startWithSuit": true,
         "playerSpawnPoint": {
             "x": 23.98357,
-            "y": 93.32771,
+            "y": 94.32771,
             "z": -7.169034
         },
         "playerSpawnRotation": {
@@ -48,8 +49,8 @@
         },
         "shipSpawnPoint": {
             "x": 28.57214,
-            "y": 95.19939,
-            "z": -7.759439
+            "y": 96.19939,
+            "z": -9.759439
         },
         "shipSpawnRotation": {
             "x": 359.6526,
@@ -57,4 +58,5 @@
             "z": 19.04803
         }
     }
+
 }
