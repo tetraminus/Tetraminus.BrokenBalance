@@ -1,0 +1,75 @@
+ManifestFileVersion: 0
+CRC: 3679611652
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 18ad81ab2e68eba7d482ba23e3533591
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2613183f285b38b45498d444bb766704
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d7fee243786b7a43aeb607db88d4b36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 910a3fad063ead543bc990492531ae37, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/hollow hope textures/Brass/Metal047A_1K_Roughness.jpg
+- Assets/hollow hope textures/Grass001_1K_AmbientOcclusion.jpg
+- Assets/hollow hope textures/hollowHopeGrassNormal.png
+- Assets/hollow hope textures/MetalPlates003_1K_NormalDX.jpg
+- Assets/hollow hope textures/MetalPlates003_1K_Roughness.jpg
+- Assets/hollow hope textures/iron/SILVERMetal047A_1K_Color .jpg
+- Assets/hollow hope textures/MetalPlates003_1K_Displacement.jpg
+- Assets/hollow hope textures/Grass001_1K_NormalDX.jpg
+- Assets/hollow hope textures/iron/Metal047A_1K_NormalDX.jpg
+- Assets/hollow hope textures/iron/Metal047A_1K_Color.jpg
+- Assets/hollow hope textures/hollowHopeGrass.png
+- Assets/hollow hope textures/MetalPlates003_1K_Color.jpg
+- Assets/hollow hope textures/Brass/Metal047A_1K_Metalness.jpg
+- Assets/hollow hope textures/MetalPlates003_1K_NormalGL.jpg
+- Assets/hollow hope textures/Brass/Metal047A_1K_NormalDX.jpg
+- Assets/hollow hope textures/iron/Metal047A_1K_Metalness.jpg
+- Assets/HollowHopeBody.prefab
+- Assets/hollow hope textures/Grass001_1K_Color.jpg
+- Assets/hollow hope textures/iron/Metal047A_1K_Roughness.jpg
+- Assets/hollow hope textures/Grass001_1K_Displacement.jpg
+- Assets/hollow hope textures/Grass001_1K_NormalGL.jpg
+- Assets/hollow hope textures/Grass001_1K_Roughness.jpg
+- Assets/hollow hope textures/Brass/Metal047A_1K_Displacement.jpg
+- Assets/hollow hope textures/MetalPlates003_1K_Metalness.jpg
+- Assets/hollow hope textures/iron/Metal047A_1K_Displacement.jpg
+- Assets/hollow hope textures/Materials/MetalPlates003_1K_Color.mat
+- Assets/hollow hope textures/Brass/Metal047A_PREVIEW.jpg
+- Assets/hollow hope textures/iron/Metal047A_PREVIEW.jpg
+- Assets/hollow hope textures/Brass/Metal047A_1K_NormalGL.jpg
+- Assets/hollow hope textures/Brass/Metal047A_1K_Color.jpg
+- Assets/hollow hope textures/iron/Metal047A_1K_NormalGL.jpg
+Dependencies: []

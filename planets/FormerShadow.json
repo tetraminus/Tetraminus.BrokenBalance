@@ -1,0 +1,60 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Hollow Hope",
+    "starSystem": "tetraminus.BBSystem",
+    "Base": {
+        "ambientLight": 1.4,
+        "hasMapMarker": true,
+        "showMinimap": true,
+        "surfaceGravity": 5,
+        "surfaceSize": 101,
+        "centerOfSolarSystem": false,
+        "groundSize": 0
+    },
+    "canShowOnTitle": true,
+    "Orbit": {
+        "primaryBody": "Balance",
+        "axialTilt": 5,
+        "siderealPeriod": 3,
+        "showOrbitLine": true,
+        "semiMajorAxis": 3000,
+        "inclination": 5,
+        "longitudeOfAscendingNode": 10
+    },
+    "ReferenceFrame": {
+        "enabled": true
+    },
+    "Props": {
+        "details": [
+            {
+                "scale": 10,
+                "assetBundle": "planets/Assets/hollowhope",
+                "path": "Assets/HollowHopeBody.prefab",
+                "keepLoaded": true
+            }
+        ]
+    },
+    "Spawn": {
+        "startWithSuit": true,
+        "playerSpawnPoint": {
+            "x": 23.98357,
+            "y": 93.32771,
+            "z": -7.169034
+        },
+        "playerSpawnRotation": {
+            "x": 355.2627,
+            "y": 2.41869,
+            "z": 342.0734
+        },
+        "shipSpawnPoint": {
+            "x": 28.57214,
+            "y": 95.19939,
+            "z": -7.759439
+        },
+        "shipSpawnRotation": {
+            "x": 359.6526,
+            "y": 188.8372,
+            "z": 19.04803
+        }
+    }
+}

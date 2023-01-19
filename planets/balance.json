@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Balance",
+    "starSystem": "tetraminus.BBSystem",
+    "Base": {
+        "surfaceGravity": 30,
+        "surfaceSize": 1000,
+        "hasMapMarker": true,
+        "gravityFallOff": "inverseSquared",
+        "centerOfSolarSystem": true
+    },
+    "Orbit": {
+        "showOrbitLine": false,
+        "isStatic": true
+    },
+    "Star": {
+        "size": 1000,
+        "tint": {
+            "r": 200,
+            "g": 220,
+            "b": 250,
+            "a": 255
+        },
+        "solarLuminosity": 1,
+        "stellarDeathType": "none",
+        "lifespan": 22
+    },
+    "ReferenceFrame": {
+        "enabled": true
+    }
+}

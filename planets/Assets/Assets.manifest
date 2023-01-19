@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1007764421
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: test
+      Dependencies: {}
+    Info_1:
+      Name: formergreen
+      Dependencies: {}
+    Info_2:
+      Name: hollowhope
+      Dependencies: {}
+    Info_3:
+      Name: gearhaven
+      Dependencies: {}
