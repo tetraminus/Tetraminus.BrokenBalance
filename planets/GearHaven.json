@@ -52,20 +52,38 @@
                             "y": 0
                         },
                         "mirror": false,
-                        "type": "adult"
+                        "type": "adult",
+                        
+                        "zRotation": 360
+
                     }
+                    
                 ],
-                "position": {"x": 1.398603, "y": 184.8393, "z": 2.535629},
-                "rotation": {"x": 0, "y": 36.73624, "z": 0},
-                "normal": {"x": 0, "y": 1, "z": 0},
+                "position": {"x": 0, "y": 184.8393, "z": 0},
+                "rotation": {"x": 270, "y": 0, "z": 0},
+                "normal": {"x": 4.125775E-08, "y": 1, "z": 1.043081E-07},
+            
+               
                 "seed": 28,
                 "type": "wall",
-                "isRelativeToParent": true,
-                "parentPath": "Sector/GHBody/Icosphere.001",
+
+                
                 "location": "unspecified",
-                "xmlFile": "text/WallText.xml",
+                "xmlFile": "planets/text/WallText.xml",
                 "rename": "CapText"
             }
         ]
+        
+    },
+    "Spawn": {
+        "playerSpawnPoint": {
+            "x": 36.94312, "y": 195.8864, "z": -13.58901
+        },
+        "playerSpawnRotation": {
+            "x": 0.1018719, "y": 19.65211, "z": 348.9208
+        },
+        "shipSpawnPoint": {"x": 38.3825, "y": 201.8381, "z": 10.20467},
+        "shipSpawnRotation": {"x": 356.9659, "y": 180.9264, "z": 11.2655},
+        "startWithSuit": true
     }
 }

@@ -32,31 +32,30 @@
                 "path": "Assets/HollowHopeBody.prefab",
                 "keepLoaded": true
             }
+        ],
+        "nomaiText": [
+            {
+                "arcInfo": [
+
+                ],
+                "location": "unspecified",     
+                "xmlFile": "planets/text/HHCenter.xml",
+                "position": {
+                    "x": 10,
+                    "y": 10,
+                    "z": 0
+
+                },
+                "normal": {"x": 0,"y": 0,"z": 1},
+                "rename": "HHInsideText",
+                "rotation": {"x": 0,"y": 0,"z": 0},
+                "seed": 29,
+                "type": "recorder"
+            }
         ]
        
-    },
-    "Spawn": {
-        "startWithSuit": true,
-        "playerSpawnPoint": {
-            "x": 23.98357,
-            "y": 94.32771,
-            "z": -7.169034
-        },
-        "playerSpawnRotation": {
-            "x": 355.2627,
-            "y": 2.41869,
-            "z": 342.0734
-        },
-        "shipSpawnPoint": {
-            "x": 28.57214,
-            "y": 96.19939,
-            "z": -9.759439
-        },
-        "shipSpawnRotation": {
-            "x": 359.6526,
-            "y": 188.8372,
-            "z": 19.04803
-        }
+       
     }
+    
 
 }
