@@ -18,7 +18,7 @@
         "isStatic": true,
         "staticPosition": {
             "x": 0,
-            "y": 3000,
+            "y": 30000,
             "z": 0
         }
     },
@@ -27,6 +27,29 @@
         "hideInMap": true
         
 
+    },
+    "Volumes": {
+        "mapRestrictionVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 750
+                
+
+            }
+        ],
+        "reverbVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 750
+            }
+        ],
+        "interferenceVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 750
+            }
+        ]
+        
     },
 
     "Props": {
@@ -52,13 +75,28 @@
                 "distortRadius": 5,
                 "hasWarpEffects": true,
                 "horizonRadius": 5,
-                "position": {"x": 19.54207, "y": -34.55701, "z": 59.06637},
-                "pairedSingularity": "MinesEntrance_hole",
+                "position": {"x": 15.5421, "y":-32.4952, "z": 59.06637},
+                "pairedSingularity": "MinesOutside_Entrance_hole",
                 "rename": "MinesExit",
-                "uniqueID": "MinesInside_hole",
+                "uniqueID": "MinesInside_Exit_hole",
+                "parentPath": "TheMinesInsideBody"
+            },
+            {
+                "type": "blackHole",
+                "distortRadius": 5,
+                "hasWarpEffects": true,
+                "horizonRadius": 5,
+                "position": {"x": -20.18589, "y": 18.85683, "z": -33.05269},
+                "pairedSingularity": "MinesOutside_Exit_hole",
+                "rename": "MinesEntrance",
+                "uniqueID": "MinesInside_Entrance_hole",
                 "parentPath": "TheMinesInsideBody"
             }
+
+            
         ]
+        
+        
     }
     
 }

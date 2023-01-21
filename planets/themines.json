@@ -5,7 +5,7 @@
     "Base": {
         "ambientLight": 1.0,
         "groundSize": 0,
-        "surfaceSize": 101,
+        "surfaceSize": 63.1,
         "surfaceGravity": 13,
         "showMinimap": true,
         "hasMapMarker": true
@@ -32,20 +32,30 @@
                     "z": 0
                 },
                 "path": "Assets/The Mines/MinesOutsideBody.prefab",
-                "scale": 6.5
+                "scale": 4
                 
             }
         ],
         "singularities": [
             {
                 "type": "blackHole",
-                "distortRadius": 10,
+                "distortRadius": 11,
                 "hasWarpEffects": true,
-                "horizonRadius": 10,
-                "position": {"x": -11.83341, "y": -15.75325, "z": 43.12911},
-                "pairedSingularity": "MinesInside_hole",
+                "horizonRadius": 11,
+                "position": {"x": -6.5698, "y": -18.7, "z": 28.1311},
+                "pairedSingularity": "MinesInside_Exit_hole",
                 "rename": "MinesEntrance",
-                "uniqueID": "MinesEntrance_hole"
+                "uniqueID": "MinesOutside_Entrance_hole"
+            },
+            {
+                "type": "whiteHole",
+                "distortRadius": 5,
+                "hasWarpEffects": true,
+                "horizonRadius": 5,
+                "position":  {"x": 42.00748, "y": 20.10573, "z": -26.17769},
+                "pairedSingularity": "MinesInside_Entrance_hole",
+                "rename": "MinesExit",
+                "uniqueID": "MinesOutside_Exit_hole"
             }
         ]
     }

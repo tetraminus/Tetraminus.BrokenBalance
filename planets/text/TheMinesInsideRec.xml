@@ -1,0 +1,32 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+  <TextBlock>
+        <ID>1</ID>
+        <LocationA/>
+        <Text>RAVA: This is amazing! And, party unsettling. This wasn't here when I first arrived.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <LocationA/>
+        <Text>JAI: I'd love to say it isn't complicated, but it is. I'll spare you the details.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <LocationA/>
+        <Text>RAVA: Oh, please, tell me. I'm seriously curious.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <LocationA/>
+        <Text>JAI: To put it simply, look at this cloth. We can wrap it around itself, and if we cut the cloth, we can push one end into the cut.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <LocationA/>
+        <Text>RAVA: You're folding space into itself?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <LocationA/>
+        <Text>JAI: Yes, and in the fifth dimension, we don't even need a cut. We can't picture it in our minds, but we can use it to our advantage.</Text>
+    </TextBlock>
+</NomaiObject>
