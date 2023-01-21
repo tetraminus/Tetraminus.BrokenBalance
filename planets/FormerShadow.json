@@ -79,6 +79,22 @@
 				"parentPath": "Sector/HollowHopeBody/SignBody",
 				"isRelativeToParent": true,
 				"rename": "HHWarningText"
+			},
+            {
+				"arcInfo": [
+					{
+						
+					}
+				],
+				"position": {"x": 1.242334, "y": 81.59566, "z": 63.40215},
+"rotation": {"x": 356.7864, "y": 259.7171, "z": 312.468},
+"normal": {"x": -0.09443606, "y": 0.6741171, "z": 0.7325627},
+				"seed": 32,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/text/HHTableRec.xml",
+				"rename": "HHTableRec"
+                
 			}
 		]
 	},

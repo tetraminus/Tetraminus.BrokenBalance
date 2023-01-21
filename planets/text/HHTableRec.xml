@@ -1,0 +1,42 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>YULE: We've done it, we created a planet!</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<Text>MACK: This is incredible! with this we could grow food and live with out Gearhaven's ecology collapsing!</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<Text>YULE: The only thing left is to tune the gravity to match our home.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<Text>MACK: Our friends back home will be ecstatic I'm sure. For now I'll go home and try my best to keep it together. when you finish, let us know immediately.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<Text>YULE: I will.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<Text></Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<Text><![CDATA[<i>JEN: Yule, come to the Control tower, we need to talk.</i>]]></Text>
+	</TextBlock>
+	 <TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<Text>YULE: I'll be right there...</Text>
+	</TextBlock>
+</NomaiObject>
