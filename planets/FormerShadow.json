@@ -17,6 +17,8 @@
 		"inclination": 5.0,
 		"longitudeOfAscendingNode": 10.0
 	},
+    "canShowOnTitle": true,
+   
 	"Props": {
 		"details": [
 			{

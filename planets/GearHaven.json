@@ -2,6 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "GearHaven",
 	"starSystem": "tetraminus.BBSystem",
+    "canShowOnTitle": true,
 	"Atmosphere": {
 		"atmosphereTint": {
 			"r": 100,
@@ -65,6 +66,18 @@
 				"location": "unspecified",
 				"xmlFile": "planets/text/WallText.xml",
 				"rename": "CapText"
+			},
+            {
+				"arcInfo": [
+				],
+				"position": {"x": 20.13878, "y": -227.426, "z": 39.77099},
+                "rotation": {"x": 338.5507, "y": 196.9712, "z": 175.3134},
+                "normal": {"x": -0.02823438, "y": -0.9276294, "z": -0.3724332},
+				"seed": 28,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/text/GHLastWords.xml",
+				"rename": "LastWordsRec"
 			}
 		]
 	},
