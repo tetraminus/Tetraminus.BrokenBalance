@@ -89,12 +89,25 @@
                 "position": {"x": -20.18589, "y": 18.85683, "z": -33.05269},
                 "pairedSingularity": "MinesOutside_Exit_hole",
                 "rename": "MinesEntrance",
-                "uniqueID": "MinesInside_Entrance_hole",
-                "parentPath": "TheMinesInsideBody"
+                "uniqueID": "MinesInside_Entrance_hole"
+                
             }
 
             
+        ],
+        "nomaiText": [
+            {
+                "location": "unspecified",
+                "position": {"x": -2.391676, "y": -18.28576, "z": 52.32367},
+                "rotation": {"x": 23.10543, "y": 103.0236, "z": 79.57656},
+                "normal": {"x": 0.2908058, "y": 0.1664088, "z": 0.9421996},
+                "rename": "MinesInsideRec",
+                "type": "recorder",
+                "seed": 10,
+                "xmlFile": "planets/text/TheMinesInsideRec.xml"
+            }
         ]
+
         
         
     }

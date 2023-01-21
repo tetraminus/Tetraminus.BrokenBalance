@@ -53,6 +53,7 @@
                 "hasWarpEffects": true,
                 "horizonRadius": 5,
                 "position":  {"x": 42.00748, "y": 20.10573, "z": -26.17769},
+                "rotation": {"x": 180},
                 "pairedSingularity": "MinesInside_Entrance_hole",
                 "rename": "MinesExit",
                 "uniqueID": "MinesOutside_Exit_hole"

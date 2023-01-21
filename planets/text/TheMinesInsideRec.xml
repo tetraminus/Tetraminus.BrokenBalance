@@ -15,18 +15,34 @@
         <Text>RAVA: Oh, please, tell me. I'm seriously curious.</Text>
     </TextBlock>
     <TextBlock>
-        <ID>3</ID>
-        <LocationA/>
-        <Text>JAI: To put it simply, look at this cloth. We can wrap it around itself, and if we cut the cloth, we can push one end into the cut.</Text>
-    </TextBlock>
-    <TextBlock>
         <ID>4</ID>
         <LocationA/>
-        <Text>RAVA: You're folding space into itself?</Text>
+        <Text>JAI: To put it simply, there used to be four accessible dimensions: up-down, left-right, forward-back, and future-past.
+         But now we have discovered the next dimension, the 5th spacial dimension.</Text>
     </TextBlock>
     <TextBlock>
         <ID>5</ID>
         <LocationA/>
-        <Text>JAI: Yes, and in the fifth dimension, we don't even need a cut. We can't picture it in our minds, but we can use it to our advantage.</Text>
+        <Text> Every object has a 5th-dimensional "shadow." this "shadow" is a near-infinite extension of the object, but we can't normally see it, let alone access it.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>6</ID>
+        <LocationA/>
+        <Text> We have simply moved a few <![CDATA[<i>inches</i>]]> through the 5th dimension. if we mine all this away we just need to go a bit further.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>7</ID>
+        <LocationA/>
+        <Text>RAVA: You mean we're standing exactly where we were, just off by a few inches?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>8</ID>
+        <LocationA/>
+        <Text>JAI: Yes, and in the fifth dimension, although we can't picture it in our minds, we have access to theoretically infinite amounts of metal.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>9</ID>
+        <LocationA/>
+        <Text>RAVA: Still proccessing, but this is Amazing!</Text>
     </TextBlock>
 </NomaiObject>
