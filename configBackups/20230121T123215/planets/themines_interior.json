@@ -1,0 +1,115 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "TheMines_inside",
+    "starSystem": "tetraminus.BBSystem",
+    "Base": {
+        "ambientLight": 1.0,
+        
+        "groundSize": 0,
+        "surfaceSize": 750,
+        "surfaceGravity": 10,
+        "hasMapMarker": false,
+        "showMinimap": false
+        
+    },
+    
+    "Orbit": {
+        "primaryBody": "Balance",
+        "isStatic": true,
+        "staticPosition": {
+            "x": 0,
+            "y": 30000,
+            "z": 0
+        }
+    },
+    "ReferenceFrame": {
+        "enabled": false,
+        "hideInMap": true
+        
+
+    },
+    "Volumes": {
+        "mapRestrictionVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 750
+                
+
+            }
+        ],
+        "reverbVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 750
+            }
+        ],
+        "interferenceVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 750
+            }
+        ]
+        
+    },
+
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/Assets/themines",
+                
+                "rename": "TheMinesInsideBody",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "path": "Assets/The Mines/MinesInsideBody.prefab",
+                "scale": 10
+                
+                
+            }
+        ],
+        "singularities": [
+            {
+                "type": "whiteHole",
+                "distortRadius": 5,
+                "hasWarpEffects": true,
+                "horizonRadius": 5,
+                "position": {"x": 15.5421, "y":-32.4952, "z": 59.06637},
+                "pairedSingularity": "MinesOutside_Entrance_hole",
+                "rename": "MinesExit",
+                "uniqueID": "MinesInside_Exit_hole",
+                "parentPath": "TheMinesInsideBody"
+            },
+            {
+                "type": "blackHole",
+                "distortRadius": 5,
+                "hasWarpEffects": true,
+                "horizonRadius": 5,
+                "position": {"x": -20.18589, "y": 18.85683, "z": -33.05269},
+                "pairedSingularity": "MinesOutside_Exit_hole",
+                "rename": "MinesEntrance",
+                "uniqueID": "MinesInside_Entrance_hole"
+                
+            }
+
+            
+        ],
+        "nomaiText": [
+            {
+                "location": "unspecified",
+                "position": {"x": -2.391676, "y": -18.28576, "z": 52.32367},
+                "rotation": {"x": 23.10543, "y": 103.0236, "z": 79.57656},
+                "normal": {"x": 0.2908058, "y": 0.1664088, "z": 0.9421996},
+                "rename": "MinesInsideRec",
+                "type": "recorder",
+                "seed": 10,
+                "xmlFile": "planets/text/TheMinesInsideRec.xml"
+            }
+        ]
+
+        
+        
+    }
+    
+}

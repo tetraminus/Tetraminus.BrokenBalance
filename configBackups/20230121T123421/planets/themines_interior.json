@@ -1,0 +1,113 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "TheMines_inside",
+	"starSystem": "tetraminus.BBSystem",
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"showMinimap": false,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 750.0
+	},
+	"Orbit": {
+		"staticPosition": {
+			"y": 30000.0
+		},
+		"primaryBody": "Balance",
+		"isStatic": true
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "TheMinesInsideBody",
+				"assetBundle": "planets/Assets/themines",
+				"path": "Assets/The Mines/MinesInsideBody.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 10.0
+			}
+		],
+		"nomaiText": [
+			{
+				"normal": {
+					"x": 0.2908058,
+					"y": 0.1664088,
+					"z": 0.9421996
+				},
+				"position": {
+					"x": -2.391676,
+					"y": -18.28576,
+					"z": 52.32367
+				},
+				"rotation": {
+					"x": 23.1054325,
+					"y": 103.0236,
+					"z": 79.57657
+				},
+				"seed": 10,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/text/TheMinesInsideRec.xml",
+				"rename": "MinesInsideRec"
+			}
+		],
+		"singularities": [
+			{
+				"pairedSingularity": "MinesOutside_Entrance_hole",
+				"uniqueID": "MinesInside_Exit_hole",
+				"position": {
+					"x": 15.5421,
+					"y": -32.4952,
+					"z": 59.06637
+				},
+				"horizonRadius": 5.0,
+				"distortRadius": 5.0,
+				"type": "whiteHole",
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"parentPath": "TheMinesInsideBody",
+				"rename": "MinesExit"
+			},
+			{
+				"pairedSingularity": "MinesOutside_Exit_hole",
+				"uniqueID": "MinesInside_Entrance_hole",
+				"position": {
+					"x": -20.18589,
+					"y": 18.85683,
+					"z": -33.05269
+				},
+				"horizonRadius": 5.0,
+				"distortRadius": 5.0,
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"rename": "MinesEntrance"
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"hideInMap": true
+	},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Volumes": {
+		"interferenceVolumes": [
+			{
+				"position": {},
+				"radius": 750.0
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"position": {},
+				"radius": 750.0
+			}
+		],
+		"reverbVolumes": [
+			{
+				"position": {},
+				"radius": 750.0
+			}
+		]
+	}
+}

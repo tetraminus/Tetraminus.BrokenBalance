@@ -1,0 +1,88 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Hollow Hope",
+	"starSystem": "tetraminus.BBSystem",
+	"Base": {
+		"ambientLight": 1.4,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 5.0,
+		"surfaceSize": 101.0
+	},
+	"Orbit": {
+		"primaryBody": "Balance",
+		"axialTilt": 5.0,
+		"siderealPeriod": 3.0,
+		"semiMajorAxis": 5000.0,
+		"inclination": 5.0,
+		"longitudeOfAscendingNode": 10.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/hollowhope",
+				"path": "Assets/HollowHopeBody.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 10.0,
+				"keepLoaded": true
+			}
+		],
+		"nomaiText": [
+			{
+				"arcInfo": [],
+				"normal": {
+					"z": 1.0
+				},
+				"position": {
+					"x": 10.0,
+					"y": 10.0
+				},
+				"rotation": {},
+				"seed": 29,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/text/HHCenter.xml",
+				"rename": "HHInsideText"
+			},
+			{
+				"arcInfo": [
+					{
+						"mirror": true,
+						"position": {
+							"x": 0.6
+						},
+						"type": "adult",
+						"variation": 1,
+						"zRotation": 99.0
+					}
+				],
+				"normal": {
+					"x": -0.9427053,
+					"y": 0.0359017029,
+					"z": 0.331690073
+				},
+				"position": {
+					"x": -0.05000609,
+					"y": 10.3763685,
+					"z": 0.0150151253
+				},
+				"rotation": {
+					"x": -7.683963E-06,
+					"y": 269.999969,
+					"z": 346.05072
+				},
+				"seed": 22,
+				"type": "wall",
+				"location": "unspecified",
+				"xmlFile": "planets/text/HHWarningSign.xml",
+				"parentPath": "Sector/HollowHopeBody/SignBody",
+				"isRelativeToParent": true,
+				"rename": "HHWarningText"
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
+}

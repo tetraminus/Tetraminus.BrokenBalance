@@ -1,0 +1,92 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Hollow Hope",
+    "starSystem": "tetraminus.BBSystem",
+    "Base": {
+        "ambientLight": 1.4,
+        "hasMapMarker": true,
+        "showMinimap": true,
+        "surfaceGravity": 5,
+        "surfaceSize": 101,
+        "centerOfSolarSystem": false,
+        "groundSize": 0
+    },
+    "canShowOnTitle": true,
+    "Orbit": {
+        "primaryBody": "Balance",
+        "axialTilt": 5,
+        "siderealPeriod": 3,
+        "showOrbitLine": true,
+        "semiMajorAxis": 5000,
+        "inclination": 5,
+        "longitudeOfAscendingNode": 10
+    },
+    "ReferenceFrame": {
+        "enabled": true
+    },
+    "Props": {
+        "details": [
+            {
+                "scale": 10,
+                "assetBundle": "planets/Assets/hollowhope",
+                "path": "Assets/HollowHopeBody.prefab",
+                "keepLoaded": true
+            }
+        ],
+        "nomaiText": [
+            {
+                "arcInfo": [
+
+                ],
+                "location": "unspecified",     
+                "xmlFile": "planets/text/HHCenter.xml",
+                "position": {
+                    "x": 10,
+                    "y": 10,
+                    "z": 0
+
+                },
+                "normal": {"x": 0,"y": 0,"z": 1},
+                "rename": "HHInsideText",
+                "rotation": {"x": 0,"y": 0,"z": 0},
+                "seed": 29,
+                "type": "recorder"
+            },
+            {
+                "arcInfo": [
+                {
+                "mirror": true,
+                "position": {
+                "x": 0.6
+                },
+                "type": "adult",
+                "variation": 4,
+                "zRotation": 105.0
+                }
+                ],
+                "normal": {
+                "x": -0.9322283,
+                "y": 0.1316601,
+                "z": 0.33706975
+                },
+                "position": {
+                "x": -6.55042458,
+                "y": 95.23196,
+                "z": -28.8290234
+                },
+                "seed": 22, 
+                "type": "wall",
+                "location": "unspecified",
+                "xmlFile": "planets/text/HHWarningSign.xml",
+                "parentPath": "Sector/HollowHopeBody/SignBody",
+                "isRelativeToParent": true,
+                "rename": "HHWarningText"
+                }
+            ]
+        
+       
+       
+    }
+    
+
+}

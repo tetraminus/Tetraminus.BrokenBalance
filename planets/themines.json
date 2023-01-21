@@ -1,64 +1,86 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "The Mines",
-    "starSystem": "tetraminus.BBSystem",
-    "Base": {
-        "ambientLight": 1.0,
-        "groundSize": 0,
-        "surfaceSize": 63.1,
-        "surfaceGravity": 13,
-        "showMinimap": true,
-        "hasMapMarker": true
-    },
-    "Orbit": {
-        "primaryBody": "Balance",
-        "siderealPeriod": 5,
-        "semiMajorAxis": 7000
-    },
-
-    "ReferenceFrame": {
-        "enabled": true
-    },
-
-    "Props": {
-        "details": [
-            {
-                "assetBundle": "planets/Assets/themines",
-                "keepLoaded": true,
-                "rename": "TheMinesBody",
-                "position": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "path": "Assets/The Mines/MinesOutsideBody.prefab",
-                "scale": 4
-                
-            }
-        ],
-        "singularities": [
-            {
-                "type": "blackHole",
-                "distortRadius": 11,
-                "hasWarpEffects": true,
-                "horizonRadius": 11,
-                "position": {"x": -6.5698, "y": -18.7, "z": 28.1311},
-                "pairedSingularity": "MinesInside_Exit_hole",
-                "rename": "MinesEntrance",
-                "uniqueID": "MinesOutside_Entrance_hole"
-            },
-            {
-                "type": "whiteHole",
-                "distortRadius": 5,
-                "hasWarpEffects": true,
-                "horizonRadius": 5,
-                "position":  {"x": 42.00748, "y": 20.10573, "z": -26.17769},
-                "rotation": {"x": 180},
-                "pairedSingularity": "MinesInside_Entrance_hole",
-                "rename": "MinesExit",
-                "uniqueID": "MinesOutside_Exit_hole"
-            }
-        ]
-    }
-   
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Mines",
+	"starSystem": "tetraminus.BBSystem",
+	"AsteroidBelt": {
+		"amount": 50,
+		"inclination": 90.0,
+		"innerRadius": 80.0,
+		"longitudeOfAscendingNode": 90.0,
+		"maxSize": 10.0,
+		"minSize": 5.0,
+		"outerRadius": 150.0,
+		"procGen": {
+			"color": {
+				"r": 100,
+				"g": 100,
+				"b": 100,
+				"a": 0
+			},
+			"scale": 6.089039
+		},
+		"randomSeed": 6
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 13.0,
+		"surfaceSize": 63.1
+	},
+	"Orbit": {
+		"primaryBody": "Balance",
+		"siderealPeriod": 5.0,
+		"semiMajorAxis": 7000.0
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "TheMinesBody",
+				"assetBundle": "planets/Assets/themines",
+				"path": "Assets/The Mines/MinesOutsideBody.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 4.0,
+				"keepLoaded": true
+			}
+		],
+		"singularities": [
+			{
+				"pairedSingularity": "MinesInside_Exit_hole",
+				"uniqueID": "MinesOutside_Entrance_hole",
+				"position": {
+					"x": -6.5698,
+					"y": -18.7,
+					"z": 28.1311
+				},
+				"horizonRadius": 11.0,
+				"distortRadius": 11.0,
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"rename": "MinesEntrance"
+			},
+			{
+				"pairedSingularity": "MinesInside_Entrance_hole",
+				"uniqueID": "MinesOutside_Exit_hole",
+				"position": {
+					"x": 42.00748,
+					"y": 20.10573,
+					"z": -26.17769
+				},
+				"rotation": {
+					"x": 180.0
+				},
+				"horizonRadius": 5.0,
+				"distortRadius": 5.0,
+				"type": "whiteHole",
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"rename": "MinesExit"
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
 }

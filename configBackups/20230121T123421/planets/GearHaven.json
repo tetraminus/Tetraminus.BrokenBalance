@@ -1,0 +1,96 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "GearHaven",
+	"starSystem": "tetraminus.BBSystem",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 100,
+			"g": 255,
+			"b": 255
+		},
+		"atmosphereSunIntensity": 1.0,
+		"hasOxygen": true,
+		"size": 350.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.4,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 13.0,
+		"surfaceSize": 201.0
+	},
+	"Orbit": {
+		"primaryBody": "Balance",
+		"axialTilt": 10.0,
+		"siderealPeriod": 10.0,
+		"semiMajorAxis": 3000.0
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "GHBody",
+				"assetBundle": "planets/Assets/gearhaven",
+				"path": "Assets/GearHaven/GearHavenPlanet.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 10.0,
+				"keepLoaded": true
+			}
+		],
+		"nomaiText": [
+			{
+				"arcInfo": [
+					{
+						"position": {},
+						"type": "adult",
+						"variation": 25,
+						"zRotation": 360.0
+					}
+				],
+				"normal": {
+					"x": 4.125775E-08,
+					"y": 1.0,
+					"z": 1.043081E-07
+				},
+				"position": {
+					"y": 184.8393
+				},
+				"rotation": {
+					"x": 270.0
+				},
+				"seed": 28,
+				"type": "wall",
+				"location": "unspecified",
+				"xmlFile": "planets/text/WallText.xml",
+				"rename": "CapText"
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": 36.94312,
+			"y": 195.8864,
+			"z": -13.58901
+		},
+		"playerSpawnRotation": {
+			"x": 0.1018719,
+			"y": 19.65211,
+			"z": 348.9208
+		},
+		"shipSpawnPoint": {
+			"x": 38.3825,
+			"y": 201.8381,
+			"z": 10.20467
+		},
+		"shipSpawnRotation": {
+			"x": 356.9659,
+			"y": 180.9264,
+			"z": 11.2655
+		},
+		"startWithSuit": true
+	}
+}
