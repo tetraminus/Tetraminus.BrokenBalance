@@ -1,0 +1,60 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "The Mines",
+    "starSystem": "tetraminus.BBSystem",
+    "Base": {
+        "ambientLight": 1.0,
+        "groundSize": 0,
+        "surfaceSize": 101,
+        "surfaceGravity": 13,
+        "showMinimap": true,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "primaryBody": "Balance",
+        "siderealPeriod": 5,
+        "semiMajorAxis": 7000
+    },
+
+    "ReferenceFrame": {
+        "enabled": true
+    },
+
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "planets/Assets/themines",
+                "keepLoaded": true,
+                "rename": "TheMinesBody",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "path": "Assets/The Mines/MinesOutsideBody.prefab",
+                "scale": 6.5
+                
+            }
+        ]
+    },
+    "Bramble": {
+        "nodes": [
+            {
+                "name": "themines_entrance",
+                "fogTint": {
+                    "a": 0
+                },
+                "isSeed": false,
+                "lightTint": {
+                    "a": 0
+
+                },
+                "possibleExits": [1],
+                "hasFogLight": false,
+                "position": {"x": 0,"y": 0,"z": 0},
+                "preventRecursionCrash": false,
+                "linksTo": "TheMines_inside"
+            }
+        ]
+    }
+}
