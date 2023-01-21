@@ -32,27 +32,27 @@
     <TextBlock>
 		<ID>7</ID>
 		<LocationA/>
-		<Text>KAZI: Five! Four! Three! Two! O---</Text>
+		<Text>KAZI: Five!</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>8</ID>
 		<LocationA/>
-		<Text></Text>
+		<Text>KAZI: Four!</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>9</ID>
 		<LocationA/>
-		<Text></Text>
+		<Text>KAZI: Three!</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>10</ID>
 		<LocationA/>
-		<Text></Text>
+		<Text>KAZI: Two!</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>11</ID>
 		<LocationA/>
-		<Text></Text>
+		<Text>KAZI: O-</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>12</ID>
@@ -67,7 +67,7 @@
     <TextBlock>
 		<ID>14</ID>
 		<LocationA/>
-		<Text><![CDATA[<color=red>Error: Memory Full, stopping recording.</color>]]></Text>
+		<Text><![CDATA[<color=red>Error: Memory Full, recording stopped.</color>]]></Text>
 	</TextBlock>
 	
 </NomaiObject>
