@@ -4,11 +4,15 @@
     "starSystem": "tetraminus.BBSystem",
     "Base": {
         "ambientLight": 1.0,
+        
         "groundSize": 0,
         "surfaceSize": 750,
-        "surfaceGravity": 10
+        "surfaceGravity": 10,
+        "hasMapMarker": false,
+        "showMinimap": false
         
     },
+    
     "Orbit": {
         "primaryBody": "Balance",
         "isStatic": true,
@@ -21,6 +25,7 @@
     "ReferenceFrame": {
         "enabled": false,
         "hideInMap": true
+        
 
     },
 
@@ -28,16 +33,30 @@
         "details": [
             {
                 "assetBundle": "planets/Assets/themines",
-                "keepLoaded": true,
-                "rename": "TheMinesBody",
+                
+                "rename": "TheMinesInsideBody",
                 "position": {
                     "x": 0,
                     "y": 0,
                     "z": 0
                 },
                 "path": "Assets/The Mines/MinesInsideBody.prefab",
-                "scale": 0
+                "scale": 10
                 
+                
+            }
+        ],
+        "singularities": [
+            {
+                "type": "whiteHole",
+                "distortRadius": 5,
+                "hasWarpEffects": true,
+                "horizonRadius": 5,
+                "position": {"x": 19.54207, "y": -34.55701, "z": 59.06637},
+                "pairedSingularity": "MinesEntrance_hole",
+                "rename": "MinesExit",
+                "uniqueID": "MinesInside_hole",
+                "parentPath": "TheMinesInsideBody"
             }
         ]
     }

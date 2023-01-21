@@ -35,26 +35,19 @@
                 "scale": 6.5
                 
             }
-        ]
-    },
-    "Bramble": {
-        "nodes": [
+        ],
+        "singularities": [
             {
-                "name": "themines_entrance",
-                "fogTint": {
-                    "a": 0
-                },
-                "isSeed": false,
-                "lightTint": {
-                    "a": 0
-
-                },
-                "possibleExits": [1],
-                "hasFogLight": false,
-                "position": {"x": 0,"y": 0,"z": 0},
-                "preventRecursionCrash": false,
-                "linksTo": "TheMines_inside"
+                "type": "blackHole",
+                "distortRadius": 10,
+                "hasWarpEffects": true,
+                "horizonRadius": 10,
+                "position": {"x": -11.83341, "y": -15.75325, "z": 43.12911},
+                "pairedSingularity": "MinesInside_hole",
+                "rename": "MinesEntrance",
+                "uniqueID": "MinesEntrance_hole"
             }
         ]
     }
+   
 }
