@@ -14,6 +14,34 @@
 		"showOrbitLine": false,
 		"isStatic": true
 	},
+	"Rings": [
+		{
+			"fluidType": "plasma",
+			"inclination": -33.3,
+			"innerRadius": 900,
+			"longitudeOfAscendingNode": 0,
+			"outerRadius": 1600,
+			"texture": "planets/Assets/StarRings.png",
+			"rename": "SUNRINGS",
+			"rotationSpeed": 0,
+			"unlit": true
+			
+		},
+		{
+			"fluidType": "plasma",
+			"inclination": 33.3,
+			"innerRadius": 900,
+			"longitudeOfAscendingNode": 0,
+			"outerRadius": 1600,
+			"texture": "planets/Assets/StarRings.png",
+			"rename": "SUNRINGS",
+			"rotationSpeed": 0,
+			"unlit": true
+			
+		}
+		
+
+	],
 	"ReferenceFrame": {},
 	"ShipLog": {},
 	"Star": {

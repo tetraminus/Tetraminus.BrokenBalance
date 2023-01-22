@@ -17,12 +17,12 @@
     <TextBlock>
 		<ID>4</ID>
 		<LocationA/>
-		<Text>JAI: Kazi, we don't have time to reminisce, all the buildings have a hook in them, and all our people are inside, the- they just think it's a solar flare. It's time.</Text>
+		<Text>JAI: Kazi, we don't have time to reminisce, all the buildings have a hook in them, and all our people are inside the buildings, th- they just think it's a solar flare. It's time.</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>5</ID>
 		<LocationA/>
-		<Text>KAZI: To worlds beyond?</Text>
+		<Text>KAZI: Well. To worlds beyond?</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>6</ID>

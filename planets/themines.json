@@ -32,7 +32,10 @@
 	"Orbit": {
 		"primaryBody": "Balance",
 		"siderealPeriod": 5.0,
-		"semiMajorAxis": 7000.0
+		"semiMajorAxis": 7000.0,
+        "trueAnomaly": 50.21,
+        "longitudeOfAscendingNode": 73.2,
+        "inclination": 45
 	},
 	"Props": {
 		"details": [

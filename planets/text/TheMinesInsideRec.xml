@@ -2,7 +2,7 @@
   <TextBlock>
         <ID>1</ID>
         <LocationA/>
-        <Text>RAVA: This is amazing! And, party unsettling. This wasn't here when I first arrived.</Text>
+        <Text>RAVA: This is amazing! And, also unsettling. This wasn't here when I first arrived.</Text>
     </TextBlock>
     <TextBlock>
         <ID>2</ID>
@@ -12,13 +12,13 @@
     <TextBlock>
         <ID>3</ID>
         <LocationA/>
-        <Text>RAVA: Oh, please, tell me. I'm seriously curious.</Text>
+        <Text>RAVA: Oh, please, tell me. I'm curious.</Text>
     </TextBlock>
     <TextBlock>
         <ID>4</ID>
         <LocationA/>
         <Text>JAI: To put it simply, there used to be four accessible dimensions: up-down, left-right, forward-back, and future-past.
-         But now we have discovered the next dimension, the 5th spacial dimension.</Text>
+         But now we have discovered the next dimension, the 5th spatial dimension.</Text>
     </TextBlock>
     <TextBlock>
         <ID>5</ID>
@@ -43,6 +43,16 @@
     <TextBlock>
         <ID>9</ID>
         <LocationA/>
-        <Text>RAVA: Still proccessing, but this is Amazing!</Text>
+        <Text>RAVA: But how did we move at all?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>10</ID>
+        <LocationA/>
+        <Text>JAI: A fish can't conceive of moving through the air, but with a hook, they travel nonetheless.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>11</ID>
+        <LocationA/>
+        <Text>RAVA: Thats what you're calling it, a hook... That kind of makes sense. Now how do we get out?</Text>
     </TextBlock>
 </NomaiObject>
