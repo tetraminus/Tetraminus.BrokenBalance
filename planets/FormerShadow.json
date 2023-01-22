@@ -98,6 +98,32 @@
 				"rename": "HHTableRec"
                 
 			}
+		],
+		"signals": [
+			{
+                "audio": "NomaiRecorderAmbient_LP",
+                "detectionRadius": 20,
+                "frequency": "Nomai Recorder",
+                "identificationRadius": 10,
+                "name": "Table Recorder",
+                "onlyAudibleToScope": true,
+                "sourceRadius": 2,
+                "position": {"x": 1.242334, "y": 81.59566, "z": 63.40215}
+            },
+			{
+                "audio": "NomaiRecorderAmbient_LP",
+                "detectionRadius": 20,
+                "frequency": "Nomai Recorder",
+                "identificationRadius": 10,
+                "name": "Hope's Center Recorder",
+                "onlyAudibleToScope": true,
+                "sourceRadius": 2,
+                "position": {
+					"x": 10.0,
+					"y": 10.0
+				}
+            }
+
 		]
 	},
 	"ReferenceFrame": {},

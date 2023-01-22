@@ -6,11 +6,11 @@
 	"AsteroidBelt": {
 		"amount": 50,
 		"inclination": 90.0,
-		"innerRadius": 80.0,
+		"innerRadius": 150.0,
 		"longitudeOfAscendingNode": 90.0,
 		"maxSize": 10.0,
 		"minSize": 5.0,
-		"outerRadius": 150.0,
+		"outerRadius": 200.0,
 		"procGen": {
 			"color": {
 				"r": 100,
@@ -34,10 +34,28 @@
 		"siderealPeriod": 5.0,
 		"semiMajorAxis": 7000.0,
         "trueAnomaly": 50.21,
-        "longitudeOfAscendingNode": 73.2,
+        "longitudeOfAscendingNode": 3.2,
         "inclination": 45
 	},
 	"Props": {
+        "signals": [
+            {
+                "audio": "NomaiRecorderAmbient_LP",
+                "detectionRadius": 20,
+                "frequency": "Nomai Recorder",
+                "identificationRadius": 20,
+                "name": "Mines Recorder",
+                "onlyAudibleToScope": true,
+                "position": {
+					"x": -6.5698,
+					"y": -18.7,
+					"z": 28.1311
+				},
+                "sourceRadius": 10
+                
+
+            }
+        ],
 		"details": [
 			{
 				"rename": "TheMinesBody",

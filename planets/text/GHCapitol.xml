@@ -1,0 +1,27 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+  <TextBlock>
+        <ID>1</ID>
+        <LocationA/>
+        <Text>KAZI: Rava, we can't just sit here and wait to die! We may have all the metal we'll ever need, but we can't live on that alone!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <LocationA/>
+        <Text>RAVA: Kazi, what you're suggesting is dangerous, this is an unexplored technology. It could kill us all.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <LocationA/>
+        <Text>KAZI: is it worse than starving in our own home?</Text>   
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <LocationA/>
+        <Text>RAVA: You may be a scientist but you aren't a leader. Please, come back with something, anything else.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <LocationA/>
+        <Text>KAZI: Ok, let me talk to Jai.</Text>
+    </TextBlock>
+</NomaiObject>

@@ -8,6 +8,7 @@
 		"showMinimap": false,
 		"surfaceGravity": 10.0,
 		"surfaceSize": 750.0
+		
 	},
 	"Orbit": {
 		"staticPosition": {
@@ -16,6 +17,7 @@
 		"primaryBody": "Balance",
 		"isStatic": true
 	},
+	
 	"Props": {
 		"details": [
 			{
@@ -51,6 +53,11 @@
 				"rename": "MinesInsideRec"
 			}
 		],
+		
+		"signals": [
+			
+		],
+		
 		"singularities": [
 			{
 				"pairedSingularity": "MinesOutside_Entrance_hole",

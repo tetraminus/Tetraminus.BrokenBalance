@@ -75,14 +75,49 @@
 				"position": {"x": 20.13878, "y": -227.426, "z": 39.77099},
                 "rotation": {"x": 338.5507, "y": 196.9712, "z": 175.3134},
                 "normal": {"x": -0.02823438, "y": -0.9276294, "z": -0.3724332},
-				"seed": 28,
+				"seed": 22,
 				"type": "recorder",
 				"location": "unspecified",
 				"xmlFile": "planets/text/GHLastWords.xml",
 				"rename": "LastWordsRec"
+			},
+            {
+				"arcInfo": [
+				],
+				"position": {"x": 11.31524, "y": 175.1103, "z": -106.0232},
+                "rotation": {"x": 350.5807, "y": 59.9846, "z": 331.408},
+                "normal": {"x": 0.114968, "y": 0.8662113, "z": -0.4862722},
+				"seed": 29,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/text/GHCapitol.xml",
+				"rename": "CapitolRec"
 			}
-		]
+		],
+        "signals": [
+            {
+                "audio": "NomaiRecorderAmbient_LP",
+                "detectionRadius": 20,
+                "frequency": "Nomai Recorder",
+                "identificationRadius": 20,
+                "name": "Last Words Recorder",
+                "onlyAudibleToScope": true,
+                "sourceRadius": 2,
+                "position": {"x": 20.13878, "y": -227.426, "z": 39.77099}
+            },
+			{
+                "audio": "NomaiRecorderAmbient_LP",
+                "detectionRadius": 20,
+                "frequency": "Nomai Recorder",
+                "identificationRadius": 20,
+                "name": "Capitol Recorder",
+                "onlyAudibleToScope": true,
+                "sourceRadius": 2,
+                "position": {"x": 11.31524, "y": 175.1103, "z": -106.0232}
+            }
+        ]
 	},
+    
 	"ReferenceFrame": {},
 	"ShipLog": {},
 	"ShockEffect": {},
