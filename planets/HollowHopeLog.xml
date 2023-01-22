@@ -1,0 +1,31 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">    
+    <ID>Hollow Hope</ID> <!-- The ID of the planet this xml file is for -->
+    
+    <Entry>
+        <ID>BB_HOPES_CENTER_REC</ID>
+        <Name>Hope's Center Recorder</Name>
+        <Curiosity>BB_STARTING_INFO</Curiosity>
+
+        <ExploreFact>
+            <ID>BB_HOPES_CENTER_REC_FOUND</ID>
+            <Text>A conversation between two nomai. They realized that Hollow Hope couldn't support life as it would collapse under its own weight.
+They also seem to have been lying to the people on GearHaven about this.
+            </Text>
+        </ExploreFact>
+
+    </Entry>
+    <Entry>
+        <ID>BB_TABLE_REC</ID>
+        <Name>Table Recorder</Name>
+        <Curiosity>BB_STARTING_INFO</Curiosity>
+
+        <ExploreFact>
+            <ID>BB_TABLE_REC_FOUND</ID>
+            <Text>One nomai, Yule showing off Hollow Hope to Another, Rava.
+Rava is impressed and goes to tell the nomai on GearHaven. A third nomai, Sola, speaks to Yule, and asks them to come to the control tower.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

@@ -19,9 +19,16 @@
         <LocationA/>
         <Text>RAVA: You may be a scientist but you aren't a leader. Please, come back with something, anything else.</Text>
     </TextBlock>
+    
     <TextBlock>
         <ID>5</ID>
         <LocationA/>
         <Text>KAZI: Ok, let me talk to Jai.</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <Condition>4</Condition>
+            <FactID>BB_CAPITOL_REC_FOUND</FactID>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

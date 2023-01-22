@@ -2,7 +2,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA/>
-		<Text>JEN: Hopeful Shadow can't support life like this, its too fragile. How long can we keep up the lie?</Text>
+		<Text>SOLA: Hopeful Shadow can't support life like this, its too fragile. How long can we keep up the lie?</Text>
 	</TextBlock>
     <TextBlock>
 		<ID>2</ID>
@@ -12,13 +12,18 @@
     <TextBlock>
 		<ID>3</ID>
 		<LocationA/>
-		<Text>JEN: I have no more ideas; maybe our friends back on Gearhaven have found something.</Text>
+		<Text>SOLA: I have no more ideas; maybe our friends back on Gearhaven have found something.</Text>
 
 	</TextBlock>
     <TextBlock>
 		<ID>4</ID>
 		<LocationA/>
-		<Text>YULE: I hope so.</Text>
+		<Text>YULE: I hope so. Jai and Kazi are our best bet.</Text>
 	</TextBlock>
-	
+	<ShipLogConditions>
+        <RevealFact>
+            <Condition>4</Condition>
+            <FactID>BB_HOPES_CENTER_REC_FOUND</FactID>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

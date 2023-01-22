@@ -1,0 +1,44 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">    
+    <ID>GearHaven</ID> <!-- The ID of the planet this xml file is for -->
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>BB_STARTING_INFO</ID> <!-- The ID of this entry -->
+        <Name>Broken Balance</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>BB_STARTING_INFO</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+        <IgnoreMoreToExplore/> <!-- Don't show a "more to explore" icon -->
+        
+
+        <ExploreFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>REC_SIGNALS</ID> <!-- The ID of this fact -->            
+            <Text>There seem to be some odd signals around here. There are structures too but where are all the people? I don't see any houses either.</Text> <!-- The Text to display for this fact -->
+        </ExploreFact>
+
+        
+    </Entry>
+    <Entry>
+        <ID>BB_CAPITOL_REC</ID>
+        <Name>Capitol Recorder</Name>
+        <Curiosity>BB_STARTING_INFO</Curiosity>
+
+        <ExploreFact>
+            <ID>BB_CAPITOL_REC_FOUND</ID>
+            <Text>This recorded an argument between two nomai. the one named Kazi seems to be a scientist. The other, Rava seems to be some kind of leader.
+Kazi came to Rava with a solution the the planet's over population, but Rava seemed to think it was worse than death. </Text>
+        </ExploreFact>
+
+    </Entry>
+    <Entry>
+        <ID>BB_LAST_WORDS_REC</ID>
+        <Name>Last Words Recorder</Name>
+        <Curiosity>BB_STARTING_INFO</Curiosity>
+
+        <ExploreFact>
+            <ID>BB_LAST_WORDS_REC_FOUND</ID>
+            <Text>Some kind of confession of two nomai, Kazi and Jai. 
+Jai mentions putting "Hooks" in the buildings and tricking the People to stay inside. They both act like what they were doing was terrible.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

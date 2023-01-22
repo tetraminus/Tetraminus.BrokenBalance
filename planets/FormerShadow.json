@@ -126,7 +126,13 @@
 
 		]
 	},
+	"ShipLog": {
+		
+		"spriteFolder": "planets/Assets/logs/HH",
+		"xmlFile": "planets/HollowHopeLog.xml"
+		
+	},
 	"ReferenceFrame": {},
-	"ShipLog": {},
+	
 	"ShockEffect": {}
 }

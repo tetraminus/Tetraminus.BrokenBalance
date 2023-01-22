@@ -1,0 +1,17 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">    
+    <ID>The Mines</ID> <!-- The ID of the planet this xml file is for -->
+    
+    <Entry>
+        <ID>BB_MINES_REC</ID>
+        <Name>Mines Recorder</Name>
+        <Curiosity>BB_STARTING_INFO</Curiosity>
+
+        <ExploreFact>
+            <ID>BB_MINES_REC_FOUND</ID>
+            <Text>One nomai, Jai, Bringing another, Rava, into the mines. Rava seems suprised because the mines are larger than the planet they occupy.
+Jai explains that they have moved across the Fifth dimension. Jai gives an analogy: "A fish can't conceive of moving through the air, but with a hook, they travel nonetheless."
+            </Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

@@ -122,11 +122,10 @@
     
 	"ReferenceFrame": {},
 	"ShipLog": {
-		"mapMode": {
-			
-		},
+		
 		"spriteFolder": "planets/Assets/logs/GH",
-		"xmlFile": "planets/GearHaven.xml"
+		"xmlFile": "planets/GearHavenLog.xml"
+		
 	},
 	"ShockEffect": {},
 	"Spawn": {

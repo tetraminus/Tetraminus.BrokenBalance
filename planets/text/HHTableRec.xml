@@ -32,11 +32,17 @@
     <TextBlock>
 		<ID>7</ID>
 		<LocationA />
-		<Text><![CDATA[<i>JEN: Yule, come to the Control tower, we need to talk.</i>]]></Text>
+		<Text><![CDATA[<i>SOLA: Yule, come to the Control tower, we need to talk.</i>]]></Text>
 	</TextBlock>
 	 <TextBlock>
 		<ID>8</ID>
 		<LocationA />
 		<Text>YULE: I'll be right there...</Text>
 	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<Condition>8</Condition>
+			<FactID>BB_TABLE_REC_FOUND</FactID>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

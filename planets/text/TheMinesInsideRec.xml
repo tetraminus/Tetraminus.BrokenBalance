@@ -55,4 +55,10 @@
         <LocationA/>
         <Text>RAVA: Thats what you're calling it, a hook... That kind of makes sense. Now how do we get out?</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <Condition>11</Condition>
+            <FactID>BB_MINES_REC_FOUND</FactID>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

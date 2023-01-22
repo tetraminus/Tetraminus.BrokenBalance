@@ -69,5 +69,11 @@
 		<LocationA/>
 		<Text><![CDATA[<color=red>Error: Memory Full, recording stopped.</color>]]></Text>
 	</TextBlock>
+	<ShipLogConditions>
+        <RevealFact>
+            <Condition>11</Condition>
+            <FactID>BB_LAST_WORDS_REC_FOUND</FactID>
+        </RevealFact>
+    </ShipLogConditions>
 	
 </NomaiObject>

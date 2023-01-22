@@ -103,6 +103,11 @@
 		]
 	},
 	"ReferenceFrame": {},
-	"ShipLog": {},
+	"ShipLog": {
+		
+		"spriteFolder": "planets/Assets/logs/TM",
+		"xmlFile": "planets/MinesLog.xml"
+		
+	},
 	"ShockEffect": {}
 }
