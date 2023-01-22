@@ -129,8 +129,15 @@
 	"ShipLog": {
 		
 		"spriteFolder": "planets/Assets/logs/HH",
-		"xmlFile": "planets/HollowHopeLog.xml"
-		
+		"xmlFile": "planets/HollowHopeLog.xml",
+		"mapMode": {
+			"revealedSprite": "planets/Assets/MapIcons/HollowHopeIcon.png",
+			"manualPosition": {"x": 200, "y": 0},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 0
+			}
+		}
 	},
 	"ReferenceFrame": {},
 	

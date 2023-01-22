@@ -124,7 +124,16 @@
 	"ShipLog": {
 		
 		"spriteFolder": "planets/Assets/logs/GH",
-		"xmlFile": "planets/GearHavenLog.xml"
+		"xmlFile": "planets/GearHavenLog.xml",
+		"mapMode": {
+			
+			"revealedSprite": "planets/Assets/MapIcons/GearHavenIcon.png",
+			"manualPosition": {"x": 0, "y": 0},
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 0
+			}
+		}
 		
 	},
 	"ShockEffect": {},

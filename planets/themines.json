@@ -106,7 +106,15 @@
 	"ShipLog": {
 		
 		"spriteFolder": "planets/Assets/logs/TM",
-		"xmlFile": "planets/MinesLog.xml"
+		"xmlFile": "planets/MinesLog.xml",
+		"mapMode": {
+			"revealedSprite": "planets/Assets/MapIcons/TheMinesIcon.png",
+			"manualPosition": {"x": 450, "y": 50},
+			"manualNavigationPosition": {
+				"x": 2,
+				"y": 0
+			}
+		}
 		
 	},
 	"ShockEffect": {}
