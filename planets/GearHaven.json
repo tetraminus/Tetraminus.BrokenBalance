@@ -15,7 +15,9 @@
 		"size": 350.0,
 		"useAtmosphereShader": true
 	},
+	
 	"Base": {
+		
 		"ambientLight": 1.4,
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
@@ -119,7 +121,13 @@
 	},
     
 	"ReferenceFrame": {},
-	"ShipLog": {},
+	"ShipLog": {
+		"mapMode": {
+			
+		},
+		"spriteFolder": "planets/Assets/logs/GH",
+		"xmlFile": "planets/GearHaven.xml"
+	},
 	"ShockEffect": {},
 	"Spawn": {
 		"playerSpawnPoint": {

@@ -95,7 +95,9 @@
 		"enabled": false,
 		"hideInMap": true
 	},
-	"ShipLog": {},
+	"ShipLog": {
+		"mapMode": {"remove": true}
+	},
 	"ShockEffect": {},
 	"Volumes": {
 		"interferenceVolumes": [
