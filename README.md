@@ -9,6 +9,7 @@
 - actual puzzles?
 - more things on planets.
 - better art.
+- rerendered textures. (planets look as crust as day old santacruz boardwalk corndogs.)
  
 ## Created by:
 - [Tetraminus](https://www.youtube.com/@tetraminus)
