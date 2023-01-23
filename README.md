@@ -2,7 +2,7 @@
  An Outer Wilds story mod made for the 2023 New Horizons Jam.
  travel to the new Solar System to start.
  
- currently still kinda bare bones, just 5 entries to peice togeter a story
+ currently still kinda bare bones, just 5 entries to piece together a story
  
 ## roadmap
 - second system?
