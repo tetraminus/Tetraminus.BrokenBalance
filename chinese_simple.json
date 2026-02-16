@@ -1,0 +1,98 @@
+{
+//该翻译补丁经检查没有任何问题。
+  "OtherDictionary": {
+  },
+
+  "UIDictionary": {
+    "Balance": "失衡天平",
+    "Hollow Hope": "虚妄希望",
+    "GearHaven": "齿轮港",
+    "Nomai Recorder": "挪麦记录仪",
+    "Last Words Recorder": "遗言记录仪",
+    "Capitol Recorder": "首府记录仪",
+    "Mines Recorder": "矿场记录仪",
+    "Table Recorder": "桌上记录仪",
+    "Hope's Center Recorder": "虚妄希望中心的记录仪",
+    "The Mines": "第五维度矿场"
+  },
+
+  "DialogueDictionary": {
+    //GHCapitol.xml
+    "KAZI: Rava, we can't just sit here and wait to die! We may have all the metal we'll ever need, but we can't live on that alone!": "卡齐：拉瓦，我们不能坐以待毙！就算拥有用之不竭的金属，也没法单靠这个活下去！",
+    "RAVA: Kazi, what you're suggesting is dangerous, this is an unexplored technology. It could kill us all.": "拉瓦：卡齐，你的提议太危险了，这是未经探索的技术，可能会害死我们所有人。",
+    "KAZI: Is it worse than starving in our own home?": "卡齐：难道还能比在故土活活饿死更糟吗？",
+    "RAVA: You may be a scientist but you aren't a leader. Please, come back with something, anything else.": "拉瓦：你或许是个优秀的科学家，但绝不是合格的领袖。求你了，换个方案，任何其他方案都好。",
+    "KAZI: Ok, let me talk to Jai.": "卡齐：好吧，我去和杰伊谈谈。",
+
+    //GHLastWords.xml
+    "JAI: This is it then.": "杰伊：就这样了。",
+    "KAZI: Whoever finds this recording, this was our last option, not the best, just... the last.": "卡齐：无论谁找到这段录音，这都是我们最后的选择——不是最优解，只是……最后的选择。",
+    "KAZI: I'll miss our beautiful star, you could always see it best from here.": "卡齐：我会想念我们那颗美丽的恒星的，从这里看它总是最清晰。",
+    "JAI: Kazi, we don't have time to reminisce, all the buildings have a hook in them, and all our people are inside the buildings, th- they just think it's a solar flare. It's time.": "杰伊：卡齐，没时间缅怀了。所有建筑都装上了“钩锚”，族人都在建筑里——他们还以为只是太阳耀斑而已。该动手了。",
+    "KAZI: Well. To worlds beyond?": "卡齐：好吧。去往更远的世界？",
+    "JAI: To worlds beyond.": "杰伊：去往更远的世界。",
+    "KAZI: Five!": "卡齐：五！",
+    "KAZI: Four!": "卡齐：四！",
+    "KAZI: Three!": "卡齐：三！",
+    "KAZI: Two!": "卡齐：二！",
+    "KAZI: O-": "卡齐：一——",
+    "<![CDATA[<color=red>Error: Memory Full, recording stopped.</color>]]>": "<![CDATA[<color=red>错误：存储空间已满，录音终止。</color>]]>",
+
+    //HHCenter.xml
+    "SOLA: Hopeful Shadow can't support life like this, its too fragile. How long can we keep up the lie?": "索拉：“希望之影”根本无法维系生命，它太脆弱了。这个谎言我们还能维持多久？",
+    "YULE: I'm aware. But what can we do? we've run out of materials to add any more supports.": "尤尔：我知道。但我们别无选择——已经没有材料能加固支撑结构了。",
+    "SOLA: I have no more ideas; maybe our friends back on Gearhaven have found something.": "索拉：我已经无计可施了。或许齿轮港的同胞能找到解决办法。",
+    "YULE: I hope so. Jai and Kazi are our best bet.": "尤尔：但愿如此。杰伊和卡齐是我们最后的希望。",
+
+    //HHTableRec.xml
+    "YULE: We've done it, we created a planet!": "尤尔：我们成功了！我们造出了一颗星球！",
+    "RAVA: This is incredible! with this we could grow food and live with out Gearhaven's ecology collapsing!": "拉瓦：太不可思议了！有了它，我们就能种植食物，再也不用看着齿轮港的生态一步步崩溃！",
+    "YULE: The only thing left is to tune the gravity to match our home.": "尤尔：只剩最后一步——把重力调至和母星一致。",
+    "RAVA: Our friends back home will be ecstatic I'm sure. For now I'll go home and try my best to keep it together. when you finish, let us know immediately.": "拉瓦：同胞们一定会欣喜若狂的。我先回去稳住局面，你这边一完成就立刻通知我们。",
+    "YULE: I will.": "尤尔：我会的。",
+    "<![CDATA[<i>SOLA: Yule, come to the Control tower, we need to talk.</i>]]>": "<![CDATA[<i>索拉：尤尔，立刻到控制塔来，有事要谈。</i>]]>",
+    "YULE: I'll be right there...": "尤尔：我马上到……",
+
+    //HHWarningSign.xml
+    "<![CDATA[<color=red>DANGER: DO NOT ENTER!</color>]]>": "<![CDATA[<color=red>危险：禁止入内！</color>]]>",
+
+    //TheMinesInsideRec.xml
+    "RAVA: This is amazing! And, also unsettling. This wasn't here when I first arrived.": "拉瓦：太惊人了！但也让人不安——我第一次来的时候，这里根本不是这样。",
+    "JAI: I'd love to say it isn't complicated, but it is. I'll spare you the details.": "杰伊：我也想把事情说得简单些，但事实并非如此。细节我就不赘述了。",
+    "RAVA: Oh, please, tell me. I'm curious.": "拉瓦：哦求求你，告诉我吧，我太好奇了。",
+    "JAI: To put it simply, there used to be four accessible dimensions: up-down, left-right, forward-back, and future-past. But now we have discovered the next dimension, the 5th spatial dimension.": "杰伊：简单来说，过去只有四个可感知的维度：上下、左右、前后，以及时间上的未来-过去。但现在，我们发现了下一个维度——第五空间维度。",
+    "Every object has a 5th-dimensional \"shadow.\" this \"shadow\" is a near-infinite extension of the object, but we can't normally see it, let alone access it.": "所有物体都有一个第五维度的“投影”。这个投影是物体近乎无限的延伸，但我们平时既看不见，也无法触及。",
+    "We have simply moved a few <![CDATA[<i>inches</i>]]> through the 5th dimension. if we mine all this away we just need to go a bit further.": "我们只是在第五维度中移动了区区<![CDATA[<i>几英寸</i>]]>。只要把这些矿石开采完，我们还能走得更远。",
+    "RAVA: You mean we're standing exactly where we were, just off by a few inches?": "拉瓦：你的意思是，我们的物理位置没变，只是在第五维度偏移了几英寸？",
+    "JAI: Yes, and in the fifth dimension, although we can't picture it in our minds, we have access to theoretically infinite amounts of metal.": "杰伊：没错。尽管我们无法在脑海中具象化第五维度，但在这里，我们能获取理论上无限的金属。",
+    "RAVA: But how did we move at all?": "拉瓦：可我们究竟是怎么实现移动的？",
+    "JAI: A fish can't conceive of moving through the air, but with a hook, they travel nonetheless.": "杰伊：鱼无法想象在空气中移动，但只要有个钓钩，它们照样能离开水面。",
+    "RAVA: Thats what you're calling it, a hook... That kind of makes sense. Now how do we get out?": "拉瓦：你们把这东西叫做“钩锚”……倒也说得通。那现在我们该怎么出去？",
+
+    //WallText.xml
+    "This monument dedicated to Enriay, our Architect": "此纪念碑谨献给我们的缔造者——恩里亚伊"
+  },
+
+  "ShipLogDictionary": {
+    //GearHavenLog.xml
+    "Broken Balance": "失衡的天平",
+    "There seem to be some odd signals around here. There are structures too but where are all the people? I don't see any houses either.": "这片区域能检测到奇怪的信号，也能看到人造建筑，但所有挪麦人都不知所踪。我甚至没看到任何民居的痕迹。",
+    "Capitol Recorder": "首府记录仪",
+    "This recorded an argument between two nomai. the one named Kazi seems to be a scientist. The other, Rava seems to be some kind of leader.\u000aKazi came to Rava with a solution the the planet's over population, but Rava seemed to think it was worse than death. ": "记录仪记录了两名挪麦人的争执：名为卡齐的挪麦人似乎是科学家，另一位拉瓦则像是领袖。\n卡齐向拉瓦提出了一个解决星球人口过剩的方案，但拉瓦认为这个方案比死亡更可怕。",
+    "Last Words Recorder": "遗言记录仪",
+    "Some kind of confession of two nomai, Kazi and Jai. \u000aJai mentions putting \"Hooks\" in the buildings and tricking the People to stay inside. They both act like what they were doing was terrible.": "两名挪麦人（卡齐与杰伊）的临终告白。\n杰伊提到在建筑中安装了“钩锚”，并诱骗族人留在建筑内。两人的言行都表明，他们即将做的事是极其可怕的。",
+
+    //HollowHopeLog.xml
+    "Hope's Center Recorder": "虚妄希望中心的记录仪",
+    "A conversation between two nomai. They realized that Hollow Hope couldn't support life as it would collapse under its own weight.\u000aThey also seem to have been lying to the people on GearHaven about this.\u000a            ": "两名挪麦人的对话。他们意识到“虚妄希望”无法维系生命——这颗人造星球会因自身重量崩塌。\n而他们似乎一直向齿轮港的族人隐瞒着这个真相。",
+    "Table Recorder": "桌上记录仪",
+    "One nomai, Yule showing off Hollow Hope to Another, Rava.\u000aRava is impressed and goes to tell the nomai on GearHaven. A third nomai, Sola, speaks to Yule, and asks them to come to the control tower.": "挪麦人尤尔向拉瓦展示了“虚妄希望”。\n拉瓦大为震撼，决定返回齿轮港告知同胞。此时第三名挪麦人索拉呼唤尤尔，让其立刻前往控制塔。",
+
+    //MinesLog.xml
+    "Mines Recorder": "矿场记录仪",
+    "One nomai, Jai, Bringing another, Rava, into the mines. Rava seems suprised because the mines are larger than the planet they occupy.\u000aJai explains that they have moved across the Fifth dimension. Jai gives an analogy: \"A fish can't conceive of moving through the air, but with a hook, they travel nonetheless.\"\u000a            ": "挪麦人杰伊带领拉瓦进入矿场。拉瓦对此地的规模感到震惊——矿场甚至比它所在的星球更大。\n杰伊解释称，他们进入了第五维度，并做了一个比喻：“鱼无法想象在空气中移动，但只要有个钓钩，它们照样能离开水面。”"
+  },
+
+  "AchievementTranslations": {
+  }
+}
